@@ -232,7 +232,6 @@ p {
     isolation: isolate;
     width: 90%;
     height: 37px;
-    margin-left: 2%;
 }
 
 /* a fancy bg for showing background and border when focus. */

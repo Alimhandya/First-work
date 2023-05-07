@@ -84,6 +84,11 @@ a {
 }
 
 /* SIDE BAR - LINKS */
+.side_bar_general{
+    display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
 
 .side_bar_links {
     margin-top: 30%;
@@ -457,7 +462,6 @@ h1 {
     white-space: pre-wrap
 }
 
-
 .expandable1 {
     width: 70%
 }
@@ -526,7 +530,6 @@ h1 {
     width: 9%;
     height: 9%;
 }
-
 
 .expandable:last-child {
     margin-bottom: 9%;

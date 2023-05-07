@@ -6,8 +6,6 @@ body {
   padding: 0;
 }
 
-
-
 /* ----------------------------------------- */
 
 /* ALL PAGE */
@@ -155,7 +153,6 @@ a {
   isolation: isolate;
   width: 90%;
   height: 37px;
-  margin-left: 2%;
 }
 
 /* a fancy bg for showing background and border when focus. */
@@ -309,49 +306,6 @@ input:-webkit-autofill:active {
   }
 }
 
-.slider {
-  background: pr;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 90%;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 90%;
-  margin-bottom: 1%;
-}
-
-.slider::before,
-.slider::after {
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 90%;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-
-.slider::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
-}
-
-.slider::before {
-  left: 0;
-  top: 0;
-}
-
-.slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-
-.slider .slide {
-  height: 70%;
-}
 /* Important styles */
 #toggle {
   display: block;
@@ -460,4 +414,15 @@ li a:focus {
 
 .burger {
   margin-left: 1%;
+}
+
+.courses_sectors_images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+}
+
+.courses_sectors_images img{
+  width: 90%;
 }

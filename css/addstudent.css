@@ -173,7 +173,6 @@ a {
     isolation: isolate;
     width: 90%;
     height: 37px;
-    margin-left: 2%;
 }
 
 /* a fancy bg for showing background and border when focus. */
@@ -298,19 +297,23 @@ input:-webkit-autofill:active {
     margin-bottom: 1%;
     justify-content: center;
 }
+
 .content-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .inputs {
     display: flex;
-    flex-direction: column;
-    margin-left: 20%;
+    margin-left: 5%;
+    margin-top: 7%;
 }
 
+.r-side{
+    margin-left: 25%;
+}
 .inputDiv {
     display: flex;
     flex-direction: column;
@@ -325,8 +328,7 @@ input:-webkit-autofill:active {
 }
 
 .inputDiv input{
-    max-width: 600px;
-    width: 80%;
+    width: 180%;
     outline: none;
     border-top: none;
     border-right: none;
@@ -338,6 +340,7 @@ input:-webkit-autofill:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 .submitButton button{
@@ -464,7 +467,7 @@ input:-webkit-autofill:active {
   }
 
 .back{
-    margin-top: 30%;
+    margin-top: 23%;
     margin-left: 1%;
 }
 #back{

@@ -42,6 +42,12 @@ body {
 .lessons {
     grid-area: "l";
 }
+.side_bar_general{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
 
 .quiz {
     margin-left: 3%;
@@ -171,7 +177,6 @@ a {
     isolation: isolate;
     width: 90%;
     height: 37px;
-    margin-left: 2%;
 }
 
 /* a fancy bg for showing background and border when focus. */
